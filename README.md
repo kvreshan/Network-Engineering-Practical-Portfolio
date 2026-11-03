@@ -1,42 +1,114 @@
 # Network Engineering Practical Portfolio
 
-A categorized collection of instructor-guided academic practical records and study notes, separated from the original practical book into topic-based PDF files. The PDFs preserve the original page content and screenshots.
+## Overview
 
-> **Academic context:** These materials document class-guided practical exercises and study notes. They are not presented as independently designed production projects.
+This repository contains a collection of academic practical exercises and laboratory documentation completed as part of my **B.Tech in Network Technology** degree program.
 
-## Topic folders
+The portfolio documents hands-on learning activities conducted based on instructor guidance. It includes practical configurations, laboratory screenshots, technical notes, and step-by-step documentation covering different areas of network engineering and IT infrastructure.
 
-- **01-Networking-Fundamentals/Network-Basics-and-Hyper-V-Overview.pdf** — Network basics, company network concepts and Hyper-V introduction / virtual machine practical notes. (source PDF pages 23-41).
-- **01-Networking-Fundamentals/Network-Models-IP-Addressing-and-Subnetting.pdf** — LAN/MAN/WAN, OSI and TCP/IP models, MAC and IP addressing, IPv4 and subnetting notes. (source PDF pages 42-61).
-- **02-Cisco-Packet-Tracer/Cisco-Packet-Tracer-Switching-VLANs-and-Routing.pdf** — Switch configuration, VLANs, trunking, inter-VLAN routing, Layer 3 switching, static routing, RIP and OSPF. (source PDF pages 62-84).
-- **03-Windows-Server/Active-Directory-Domain-Controller-Setup.pdf** — Active Directory architecture, Domain Controller concepts and domain controller setup practical notes. (source PDF pages 85-121).
-- **03-Windows-Server/DNS-Server-Configuration.pdf** — DNS concepts, zones, records, forward and reverse lookup zones and DNS configuration. The two source ranges are combined. (source PDF pages 89-101, 122-133).
-- **03-Windows-Server/Active-Directory-Users-OUs-and-Group-Policy.pdf** — Active Directory Users and Computers, organizational units, users, groups and Group Policy configuration. (source PDF pages 134-224).
-- **03-Windows-Server/Active-Directory-Replication.pdf** — Active Directory replication concepts and related notes. (source PDF pages 225-235).
-- **03-Windows-Server/WSUS-Windows-Server-Update-Services.pdf** — WSUS setup and update management practical notes. (source PDF pages 236-260).
-- **03-Windows-Server/DHCP-Server.pdf** — DHCP practical section. (source PDF pages 262-272).
-- **03-Windows-Server/WDS-Windows-Deployment-Services.pdf** — WDS boot images, install images and deployment practical notes. (source PDF pages 273-286).
-- **03-Windows-Server/RDS-Remote-Desktop-Services.pdf** — RDS introduction, RD licensing and RD Gateway sections. The source pages are combined into one topic PDF. (source PDF pages 287-294, 300-321).
-- **03-Windows-Server/VPN-RRAS-Remote-Access.pdf** — VPN concepts, RRAS VPN server configuration and client connection practical notes. (source PDF pages 295-299, 322-347).
-- **04-Virtualization/Hyper-V-Virtualization-Practical.pdf** — Hyper-V virtual switches, virtual machines, server VM setup and checkpoints. This overlaps the introductory pages in Networking Fundamentals. (source PDF pages 23-41).
-- **05-Microsoft-SQL-Server/SQL-Server-2022-SSMS-and-TSQL.pdf** — SQL Server 2022 installation, SSMS, SQL administration and T-SQL commands / practical exercises. (source PDF pages 348-394).
-- **06-Endpoint-Management/ManageEngine-Endpoint-Central.pdf** — Endpoint Central installation and device onboarding practical notes. (source PDF pages 395-402).
-- **07-Cybersecurity/Kali-Linux-Network-Scanning-and-Metasploit-Lab.pdf** — Cybersecurity lab notes including Kali Linux, Nmap, network scanning and Metasploit. Use only in authorized lab environments. (source PDF pages 403-448).
-- **06-Endpoint-Management/Microsoft-Configuration-Manager-SCCM-Notes.pdf** — Microsoft Configuration Manager / SCCM architecture and configuration notes. (source PDF pages 449-457).
-- **08-IT-Infrastructure-and-Security/Disaster-Recovery-and-Endpoint-Security.pdf** — Disaster recovery, business continuity and endpoint security notes. (source PDF pages 458-474).
-- **03-Windows-Server/Active-Directory-Migration-Notes.pdf** — Active Directory migration planning and practical notes. (source PDF pages 475-490).
-- **09-Advanced-Infrastructure-Study-Notes/Virtualization-HCI-Containers-and-Kubernetes.pdf** — Virtualization, hypervisors, HCI, containers, Docker and Kubernetes study notes. (source PDF pages 491-497).
-- **07-Cybersecurity/Cybersecurity-Fundamentals-and-AD-Attacks-Study-Notes.pdf** — Cybersecurity concepts, vulnerabilities, ethical hacking methodologies and Active Directory attack concepts. (source PDF pages 498-509).
-- **10-Cloud-Computing/Cloud-Computing-Study-Notes.pdf** — Cloud computing concepts, deployment and service models, shared responsibility and adoption notes. (source PDF pages 510-514).
+## Technologies and Areas Covered
 
-## Notes before publishing
+### 1. Networking Fundamentals
+- Network Basics
+- Network Models
+- IP Addressing and Subnetting
+- Hyper-V Overview
 
-- Review every PDF before making the repository public. The original cover page containing personal information has been excluded from these topic PDFs.
-- Check screenshots for any remaining phone numbers, student identifiers, email addresses, passwords, IPs or other private lab information and redact them where necessary.
-- Confirm that sharing instructor-provided material and screenshots publicly is permitted by the course/instructor.
-- Keep the wording accurate: use terms such as *instructor-guided practical*, *academic lab record* and *study notes*. Do not claim independent project ownership or successful completion where the source documents an attempted or incomplete step.
-- The Hyper-V overview pages are included in both Networking Fundamentals and the dedicated Hyper-V PDF to make the topic easy to find.
+### 2. Cisco Networking
+- Cisco Packet Tracer
+- Switching Concepts
+- VLAN Configuration
+- Routing Fundamentals
 
-## Suggested GitHub description
+### 3. Windows Server Administration
+- Active Directory Domain Services
+- Domain Controller Configuration
+- DNS Server Configuration
+- Organizational Units and User Management
+- Group Policy Management
+- Active Directory Replication
+- Windows Server Update Services (WSUS)
+- DHCP Server Configuration
+- Windows Deployment Services (WDS)
+- Remote Desktop Services (RDS)
+- VPN and Remote Access Services (RRAS)
+- Active Directory Migration
 
-`Categorized academic practical lab records covering networking, Cisco Packet Tracer, Windows Server, virtualization, SQL Server, endpoint management and cybersecurity.`
+### 4. Virtualization
+- Microsoft Hyper-V
+- Virtual Machine Management
+- Virtualization Concepts
+
+### 5. Database Administration
+- Microsoft SQL Server 2022
+- SQL Server Management Studio (SSMS)
+- T-SQL Fundamentals
+
+### 6. Endpoint Management
+- ManageEngine Endpoint Central
+- Microsoft Configuration Manager (SCCM)
+
+### 7. Cybersecurity
+- Kali Linux
+- Network Scanning
+- Metasploit Laboratory Exercises
+- Active Directory Security Concepts
+- Cybersecurity Fundamentals
+
+### 8. IT Infrastructure and Security
+- Disaster Recovery Concepts
+- Endpoint Security
+
+### 9. Advanced Infrastructure
+- Hyper-Converged Infrastructure (HCI)
+- Containers
+- Kubernetes Fundamentals
+
+### 10. Cloud Computing
+- Cloud Computing Fundamentals
+
+## Repository Structure
+
+The repository is organized into separate topic-based folders. Each folder contains relevant PDF practical documentation and a README file describing its contents.
+
+- 01-Networking-Fundamentals
+- 02-Cisco-Packet-Tracer
+- 03-Windows-Server
+- 04-Virtualization
+- 05-Microsoft-SQL-Server
+- 06-Endpoint-Management
+- 07-Cybersecurity
+- 08-IT-Infrastructure-and-Security
+- 09-Advanced-Infrastructure-Study-Notes
+- 10-Cloud-Computing
+
+## Learning Objectives
+
+Through these practical exercises, I developed familiarity with:
+
+- Fundamental networking concepts and IP addressing
+- Network configuration and VLAN implementation
+- Windows Server administration
+- Active Directory and domain management
+- DNS, DHCP, WSUS, WDS, RDS, and RRAS
+- Virtualization using Hyper-V
+- Database administration fundamentals
+- Endpoint management solutions
+- Network scanning and cybersecurity tools
+- Modern infrastructure and cloud computing concepts
+
+## Academic Context
+
+This repository is an academic practical portfolio documenting exercises completed during my degree program under instructor guidance. It is intended to demonstrate my practical learning experience and technical exposure to different networking and IT infrastructure technologies.
+
+It should not be considered a collection of independently developed production projects.
+
+## Disclaimer
+
+The materials are shared for educational and portfolio purposes. Some practical exercises and documentation are based on instructor-provided learning materials. Appropriate permissions should be obtained before redistributing materials publicly.
+
+## Author
+
+**B.Tech in Network Technology Undergraduate**
+
+Interested in Network Engineering, Network Administration, IT Infrastructure, System Administration, and Cybersecurity.
